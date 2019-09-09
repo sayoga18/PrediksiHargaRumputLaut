@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".Tentang">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground">
+
+
+    <TextView
+        android:id="@+id/tentang1"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:text="APLIKASI INI BERTUJUAN UNTUK MEMBANTU PENGEPUL RUMPUT LAUT DI KOTA TARAKAN UNTUK MENDAPATKAN HARGA PREDIKSI RUMPUT LAUT DALAM TIGA BULAN KE DEPAN DENGAN MENGGUNAKAN SIMPLE MOVING AVERAGE, EXPONENTIAL SMOOTHING, DAN NAIVE METHOD"/>
+
+    <TextView
+        android:id="@+id/tentang2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        android:layout_marginBottom="40dp"
+        android:text="CARA PENGGUNAAN DENGAN MEMASSUKKAN HARGA RUMPUT LAUT DARI 6 BULAN TERAKHIR PADA APLIKASI, SETELAH ITU AKAN MUNCUL HASIL PREDIKSI DENGAN BERBAGAI METODE YANG DIGUNAKAN"/>
+
+
+    <TextView
+        android:id="@+id/tentang3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:text="MUHAMMAD VARIAN SAYOGA"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:text="15030025"/>
+
+    </LinearLayout>
+</ScrollView>
